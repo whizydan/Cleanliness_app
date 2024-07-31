@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ProfileFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:tint="#FFAB00"
+                android:layout_weight="0.5"
+                android:src="@drawable/person"
+                android:layout_width="200dp"
+                android:layout_height="100dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:fontFamily="@font/poetsen"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Whizy@gmail.com"
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:text="Edit Profile"
+                    android:backgroundTint="#FF9800"
+                    android:id="@+id/editProfile"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#55C5D0"
+            app:cardElevation="2dp"
+            app:contentPadding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/hotline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/transparent"
+                    android:drawableEnd="@drawable/next"
+                    android:text="contact Hotline"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    app:cornerRadius="0dp"
+                    app:rippleColor="#00BCD4" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/notification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/transparent"
+                    android:drawableEnd="@drawable/next"
+                    android:text="Notifications"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    app:cornerRadius="0dp"
+                    app:rippleColor="#00BCD4" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:backgroundTint="#FF6D00"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:text="Logout"
+        />
+
+</FrameLayout>

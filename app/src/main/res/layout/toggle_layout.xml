@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="20dp"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:id="@+id/buttonToggle"
+        android:backgroundTint="#00C853"
+        android:text="Mark as Resolved"
+        android:layout_height="wrap_content"/>
+
+</com.google.android.material.card.MaterialCardView>

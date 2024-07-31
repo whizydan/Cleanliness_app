@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">uecfs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_description">On 26 August, St. Lucia’s Ministry of Health and Wellness declared an outbreak of dengue fever . The Syndromic Surveillance report for epidemiological week 42 (dated 22 October 2020) indicated 801 confirmed cases on the island with a further 333 suspected cases. Dengue serotypes 2 and 3 circulate in St. Lucia, with a third unknown serotype to be confirmed. 26 per cent of cases require hospitalisation. On 17 October, there were three confirmed dengue-related deaths, and the 4th death being investigated by the Caribbean Public Health Agency (CARPHA). This increase in the number of cases over the past two months is a clear indicator of a larger imminent outbreak on the island. As such, it is necessary to reduce the number of cases shortly. St. Lucia is currently experiencing the most severe dengue fever outbreak in its recent history and, at the same time, is also facing the COVID 19 pandemic at the national level. The current dengue outbreak in St. Lucia represents an over 3,000% increase in the number of cases from the preceding year (20 cases in 2019 vs 801 confirmed thus far in 2020). While the entire island is currently affected by the outbreak, cases are concentrated in the island’s northwest. ([IFRC, 2 Nov 2020](https://reliefweb.int/node/3684377))</string>
+    <array name="locations">
+        <item>All</item>
+        <item>DKG 1</item>
+        <item>DKG 2</item>
+        <item>DKG 3</item>
+        <item>DKG 4</item>
+        <item>DKG 5</item>
+        <item>DKG 6</item>
+        <item>DKG 7</item>
+        <item>INASIS MAS</item>
+        <item>INASIS TNB</item>
+        <item>INASIS TRADEWINDS</item>
+        <item>INASIS PROTON</item>
+        <item>INASIS PETRONAS</item>
+        <item>INASIS SIME DARBY</item>
+        <item>INASIS TM</item>
+        <item>INASIS GRANTT</item>
+        <item>INASIS MISC</item>
+        <item>INASIS BSN</item>
+        <item>INASIS YAB</item>
+        <item>INASIS MUAMALAT</item>
+        <item>INASIS BANK RAKYAT</item>
+        <item>INASIS SME BANK</item>
+        <item>INASIS MAYBANK</item>
+        <item>VARSITY MALL</item>
+        <item>PKU</item>
+        <item>DTSO</item>
+        <item>DEWAN MUADZAM SHAH</item>
+        <item>DEWAN TAN SRI OTHMAN</item>
+        <item>EXPERIMENTAL THEATRE</item>
+        <item>DEWAN KACHI</item>
+        <item>UUM MANAGEMENT MUSEUM</item>
+        <item>SULTANAH BAHIYAH LIBRARY</item>
+        <item>SULTAN BADLISHAH MOSQUE LIBRARY</item>
+
+    </array>
+    <array name="status">
+        <item>All</item>
+        <item>Pending</item>
+        <item>Completed</item>
+        <item>Reviewed</item>
+    </array>
+</resources>

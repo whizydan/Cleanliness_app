@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/feedback"
+        android:id="@+id/feedback"
+        app:showAsAction="always"
+        android:title="Feedback"
+        />
+    <item
+        android:icon="@drawable/message"
+        android:id="@+id/messages"
+        app:showAsAction="always"
+        android:title="Messages"
+        />
+    <item
+        android:icon="@drawable/hotspot"
+        android:id="@+id/hotspot"
+        app:showAsAction="always"
+        android:title="Hotspot"
+        />
+    <item
+        android:icon="@drawable/person"
+        android:id="@+id/profile"
+        app:showAsAction="always"
+        android:title="Profile"
+        />
+</menu>

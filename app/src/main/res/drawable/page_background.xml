@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" /> <!-- Background color, change as needed -->
+        </shape>
+    </item>
+    <!-- Image -->
+    <item android:drawable="@drawable/background" /> <!-- Replace 'your_image' with your actual image resource -->
+</layer-list>

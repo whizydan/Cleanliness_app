@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:id="@+id/body"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poetsen"
+                android:text="Current Situation"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/vacuum"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="250dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="UserId: xgfjsieekrkrhrjrjrrj"
+                android:layout_margin="5dp"
+                android:id="@+id/userId"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Status: Pending"
+                android:id="@+id/status"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/sample_description" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Action Required: Moping"
+                android:id="@+id/action"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Location: DKG"
+                android:id="@+id/location"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Coordinates: "
+                android:id="@+id/coordinates"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:text="Rating for the situation:"/>
+
+            <com.hadi.emojiratingbar.EmojiRatingBar
+                android:id="@+id/emoji_rating_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:showText="true"
+                app:showAllText="true"
+                app:titleColor="#844848"
+                app:defaultValue="AWFUL"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#000000" />
+
+            <TextView
+                android:text="Evidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poetsen"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:id="@+id/response"
+                android:scaleType="centerCrop"
+                android:layout_height="150dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:id="@+id/desc"
+                android:visibility="gone"
+                android:padding="8dp"
+                android:text="How satisfied were you with the response"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/rating"
+                android:visibility="gone"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <ImageButton
+                    android:id="@+id/like"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/thumbs_up"
+                    android:layout_weight="0.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <ImageButton
+                    android:id="@+id/dislike"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/thumbs_down"
+                    android:layout_weight="0.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:id="@+id/uploadEvidence"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:layout_margin="10dp"
+                android:text="Upload Evidence"
+                android:backgroundTint="#00C853"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/buttonToggle"
+                android:visibility="gone"
+                android:backgroundTint="#00C853"
+                android:text="Mark as Resolved"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="#EFE8E8"
+    app:contentPadding="10dp"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/poetsen"
+            android:id="@+id/changelog"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+</com.google.android.material.card.MaterialCardView>
